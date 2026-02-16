@@ -137,7 +137,7 @@ const INITIAL_DOCS: DocumentItem[] = [
   },
   {
     id: '3',
-    title: 'TRH WWorkforce Team Member of the Monthly: Nomination Form',
+    title: 'TRH Workforce Team Member of the Monthly: Nomination Form',
     category: 'Reports',
     type: 'link',
     url: 'https://forms.gle/TMh6zuz3E9XJXhTaA',
