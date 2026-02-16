@@ -41,7 +41,7 @@ export const Home = () => {
               Driving Kingdom Impact.
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-              The official governance platform for the TRH Senate & Workforce Council.
+             We don’t bend the system. We create it, follow it, and reflect it.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/members" className="bg-gradient-to-r from-blue-600 via-orange-500 to-red-600 animate-gradient-bg text-white px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity inline-flex items-center shadow-lg border border-transparent">
