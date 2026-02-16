@@ -41,8 +41,8 @@ const INITIAL_MEMBERS: Member[] = [
     id: '6',
     name: 'Chibuike Moses Okorie',
     role: 'Senate Member',
-    bio: '',
-    imageUrl: '/images/chibuike-moses.jpg'
+    bio: 'Moses Okorie is the Creative Director of Mosco NEEDLES, a fashion brand specializing in custom-made dresses, ready-to-wear collections, and royal attire. Under his direction, Mosco NEEDLES blends creativity and craftsmanship to deliver distinctive, high-quality fashion pieces.',
+    imageUrl: '/images/chibuike-moses.jpeg'
   },
   {
     id: '7',
