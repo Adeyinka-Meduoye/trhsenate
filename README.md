@@ -1,12 +1,12 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+#TRH Senate Council – Description
 
-# Run and deploy your AI Studio app
+The TRH Senate Council is the central decision-making and coordinating body within TRH. It serves as a structured forum where key matters are discussed, reviewed, and resolved for the overall growth, order, and effectiveness of the organization.
 
-This contains everything you need to run your app locally.
+The council is made up of designated members who hold defined roles and responsibilities. Its purpose is to ensure transparency, accountability, and collective leadership rather than individual control. Through scheduled meetings and documented resolutions, the council provides direction, maintains standards, and oversees important initiatives.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1eUTwpoT5E6G0gAredGH48GP8h-09LY-h
+The TRH Senate Council operates on principles of collaboration, fairness, and clarity. Discussions are guided by agreed procedures, and outcomes are recorded to maintain continuity and institutional memory.
+
+In essence, the council functions as the organizational backbone of TRH — aligning members, structuring decisions, and providing a reliable system for governance and coordination.
 
 ## Run Locally
 
