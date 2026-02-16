@@ -34,7 +34,7 @@ const INITIAL_MEMBERS: Member[] = [
     id: '5',
     name: 'Given Ehiemere',
     role: 'Senate Member',
-    bio: '',
+    bio: 'God-Given is a young professional at the early stage of her career, serving as a Customer Service Personnel at a reputable Nigerian commercial bank. She is motivated by opportunities to achieve professional milestones, acquire new skills, and tackle challenging projects that foster growth. Her goal is to become a leading finance executive in Nigeria, driving innovation and growth in the banking sector while mentoring young professionals and advancing financial inclusion.',
     imageUrl: '/images/given-gift.jpeg'
   },
   {
