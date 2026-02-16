@@ -35,7 +35,7 @@ const INITIAL_MEMBERS: Member[] = [
     name: 'Given Ehiemere',
     role: 'Senate Member',
     bio: '',
-    imageUrl: '/images/given-ehiemere.jpg'
+    imageUrl: '/images/given-gift.jpeg'
   },
   {
     id: '6',
@@ -119,30 +119,30 @@ const INITIAL_MEETINGS = generateMeetings();
 const INITIAL_DOCS: DocumentItem[] = [
   {
     id: '1',
-    title: 'Senate Council: Leadership Team Charter',
-    category: 'Policies',
-    type: 'file',
-    url: '#',
-    uploadDate: '2025-10-03',
-    description: 'Defines the operational framework, hierarchy, and functional roles of the Senate Council.'
+    title: 'TRH Weekly Activity Report',
+    category: 'Reports',
+    type: 'link',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeHTWRv8jc3froRSkCI-nhJBc51t_Q50d0eh_B5-Mwl3d1y5A/viewform',
+    uploadDate: '2026-02-16',
+    description: 'Official template for organisation leaders to submit weekly activity and progress.'
   },
   {
     id: '2',
-    title: 'Leadership Mandate & Blueprint',
-    category: 'Policies',
-    type: 'file',
-    url: '#',
-    uploadDate: '2025-09-30',
-    description: 'Vision, mission, and strategic direction of the Senate Presidency & Workforce Council.'
+    title: 'TRH Workforce Membership Data Collection',
+    category: 'Reports',
+    type: 'link',
+    url: 'https://forms.gle/ZRibvHLepM1WD4Ai8',
+    uploadDate: '2026-02-16',
+    description: 'Official Central Form for the TRH Ministries Global Workforce Membership Directory. This form is designed for Organization Leaders and or Assistant Leaders to submit the details of their team members.'
   },
   {
     id: '3',
-    title: 'Monthly Activity Report Template',
+    title: 'TRH WWorkforce Team Member of the Monthly: Nomination Form',
     category: 'Reports',
     type: 'link',
-    url: '#',
-    uploadDate: '2024-01-10',
-    description: 'Official template for organisation leaders to submit monthly progress.'
+    url: 'https://forms.gle/TMh6zuz3E9XJXhTaA',
+    uploadDate: '2026-02-16',
+    description: 'Official template for organisation leaders to submit evidence-based responses for their respective team member of the month.'
   }
 ];
 
