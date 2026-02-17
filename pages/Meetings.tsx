@@ -70,7 +70,7 @@ export const Meetings = () => {
             <p className="font-semibold mb-2 text-white">Standard Schedule (Timezone: Africa/Lagos)</p>
             <ul className="list-disc list-inside space-y-2 opacity-90 mb-3">
                 <li><span className="font-semibold text-blue-300">3rd Sunday:</span> In-Person (Church Auditorium, immediately after service)</li>
-                <li><span className="font-semibold text-blue-300">3rd Tuesday:</span> Virtual (9:00 PM - 10:30 PM)</li>
+                <li><span className="font-semibold text-blue-300">2 Days After 3rd Sunday:</span> Virtual (9:00 PM - 10:30 PM)</li>
                 <li><span className="font-semibold text-blue-300">Note:</span> Our Monthly Meeting is always in-person. In the absence of that, we hold a virtual session.</li>
             </ul>
             <div className="pt-2 border-t border-blue-900/50">

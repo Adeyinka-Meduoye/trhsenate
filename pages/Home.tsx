@@ -12,14 +12,14 @@ export const Home = () => {
     const futureMeetings = meetings
       .filter(m => new Date(m.date) > new Date())
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-    
+
     if (futureMeetings.length > 0) {
       setNextMeeting(futureMeetings[0]);
     }
   }, []);
 
   const govScope = [
-    'Sanctuary', 'Music', 'Media', 'Protocol', 'Innovation & Technology', 
+    'Sanctuary', 'Music', 'Media', 'Protocol', 'Innovation & Technology',
     'Hospitality', 'Drama', '+ Other Organisations & Departments'
   ];
 
@@ -28,19 +28,19 @@ export const Home = () => {
       {/* Hero Section */}
       <div className="bg-blue-950 text-white relative overflow-hidden border-b border-slate-800">
         <div className="absolute inset-0 bg-[url('/images/trhsenate.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
-        
+
         {/* Floating Icons Background */}
         <div className="absolute top-6 left-6 md:top-10 md:left-10 text-blue-500/10 animate-float-slow pointer-events-none select-none">
-           <Landmark className="w-24 h-24 md:w-36 md:h-36" strokeWidth={1} />
+          <Landmark className="w-24 h-24 md:w-36 md:h-36" strokeWidth={1} />
         </div>
         <div className="absolute bottom-8 right-6 md:bottom-12 md:right-12 text-red-500/10 animate-float-delayed pointer-events-none select-none">
-           <Gavel className="w-20 h-20 md:w-32 md:h-32" strokeWidth={1} />
+          <Gavel className="w-20 h-20 md:w-32 md:h-32" strokeWidth={1} />
         </div>
         <div className="absolute top-12 right-8 md:top-16 md:right-24 text-orange-500/10 animate-float pointer-events-none select-none">
-           <Scale className="w-16 h-16 md:w-24 md:h-24" strokeWidth={1} />
+          <Scale className="w-16 h-16 md:w-24 md:h-24" strokeWidth={1} />
         </div>
         <div className="absolute bottom-24 left-8 md:bottom-20 md:left-32 text-slate-400/10 animate-float-slow pointer-events-none select-none">
-           <Scroll className="w-14 h-14 md:w-20 md:h-20" strokeWidth={1} />
+          <Scroll className="w-14 h-14 md:w-20 md:h-20" strokeWidth={1} />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
@@ -116,50 +116,50 @@ export const Home = () => {
                 "Leadership is service, not status. True leadership multiplies people, strengthens systems, and sustains culture."
               </blockquote>
             </div>
-            
+
             <div className="mt-8">
-               <h3 className="font-bold text-white mb-3">Governance Scope</h3>
-               <div className="flex flex-wrap gap-2">
-                 {govScope.map(org => (
-                   <span key={org} className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-sm font-medium border border-slate-700">
-                     {org}
-                   </span>
-                 ))}
-               </div>
+              <h3 className="font-bold text-white mb-3">Governance Scope</h3>
+              <div className="flex flex-wrap gap-2">
+                {govScope.map(org => (
+                  <span key={org} className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-sm font-medium border border-slate-700">
+                    {org}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
           <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800">
-             <h3 className="text-xl font-bold text-white mb-6 flex items-center">
-               <Target className="h-5 w-5 text-blue-500 mr-2" />
-               Our Assignment
-             </h3>
-             <p className="text-lg text-slate-300 leading-relaxed font-medium mb-8">
-               To strategically design, guide, and supervise all governance systems, structures, and standards in a manner that directly advances the TRH Ministries Global Vision.
+            <h3 className="text-xl font-bold text-white mb-6 flex items-center">
+              <Target className="h-5 w-5 text-blue-500 mr-2" />
+              Our Assignment
+            </h3>
+            <p className="text-lg text-slate-300 leading-relaxed font-medium mb-8">
+              To strategically design, guide, and supervise all governance systems, structures, and standards in a manner that directly advances the TRH Ministries Global Vision.
 
-The Senate exists to ensure unity of direction, operational excellence, and disciplined accountability across every organisation, enabling the entire Workforce to function as one body that consistently drives growth, transformation, and forward movement in alignment with the global mandate.
-             </p>
+              The Senate exists to ensure unity of direction, operational excellence, and disciplined accountability across every organisation, enabling the entire Workforce to function as one body that consistently drives growth, transformation, and forward movement in alignment with the global mandate.
+            </p>
 
-             <h3 className="text-xl font-bold text-white mb-6 flex items-center">
-               <Activity className="h-5 w-5 text-blue-500 mr-2" />
-               Strategic Focus
-             </h3>
-             <ul className="space-y-3">
-               {[
-                 'System Governance & Excellence',
-                 'Workforce Leadership Development',
-                 'Communication & Collaboration',
-                 'Ownership & Problem Solving',
-                 'Recognition, Culture & Engagement',
-                 "Mentorship & Workforce Development",
-                 "Data & Performance Management"
-               ].map((item, i) => (
-                 <li key={i} className="flex items-center text-slate-400">
-                   <div className="h-2 w-2 bg-blue-500 rounded-full mr-3"></div>
-                   {item}
-                 </li>
-               ))}
-             </ul>
+            <h3 className="text-xl font-bold text-white mb-6 flex items-center">
+              <Activity className="h-5 w-5 text-blue-500 mr-2" />
+              Strategic Focus
+            </h3>
+            <ul className="space-y-3">
+              {[
+                'System Governance & Excellence',
+                'Workforce Leadership Development',
+                'Communication & Collaboration',
+                'Ownership & Problem Solving',
+                'Recognition, Culture & Engagement',
+                "Mentorship & Workforce Development",
+                "Data & Performance Management"
+              ].map((item, i) => (
+                <li key={i} className="flex items-center text-slate-400">
+                  <div className="h-2 w-2 bg-blue-500 rounded-full mr-3"></div>
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
@@ -168,10 +168,10 @@ The Senate exists to ensure unity of direction, operational excellence, and disc
       <div className="bg-slate-900 border-y border-slate-800 py-20 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-             <h2 className="text-3xl font-bold mb-4">Our Guiding Values</h2>
-             <p className="text-slate-400 max-w-2xl mx-auto">
-               All activities under the Senate Presidency are guided by the H.E.A.R.T. Values.
-             </p>
+            <h2 className="text-3xl font-bold mb-4">Our Guiding Values</h2>
+            <p className="text-slate-400 max-w-2xl mx-auto">
+              All activities under the Senate Presidency are guided by the H.E.A.R.T. Values.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
