@@ -7,14 +7,14 @@ const INITIAL_MEMBERS: Member[] = [
     name: 'Adeyinka Meduoye',
     role: 'Senate President & Workforce Council Director',
     bio: 'A multidisciplinary professional driven by leadership, technology, entrepreneurship, and public policy. He utilises his diverse skill set, innovative mindset, and demonstrated leadership experiences to drive meaningful change and achieve excellence in whatever he does.',
-    imageUrl: '/images/adeyinka-medus-2.png'
+    imageUrl: '/images/adeyinka-medus.png'
   },
   {
     id: '2',
     name: 'Belema Nzei',
     role: 'Senate Member',
-    bio: '',
-    imageUrl: '/images/belema-nzei.jpg'
+    bio: 'Belema Nzei is a wife, a mother to a beautiful daughter, an entrepreneur, and a professional beautician. Her greatest driving force is her family, as she is deeply motivated to create better opportunities and a higher quality of life for her children and loved ones than she experienced growing up. Her aspiration is to become a highly successful businesswoman who serves as a source of inspiration to young girls from humble backgrounds, encouraging them to trust their journey, persevere through challenges, and ultimately achieve success.',
+    imageUrl: '/images/belema-nzei.jpeg'
   },
   {
     id: '3',
@@ -27,8 +27,8 @@ const INITIAL_MEMBERS: Member[] = [
     id: '4',
     name: 'Jason Irabor Andre',
     role: 'Senate Member',
-    bio: '',
-    imageUrl: '/images/mr-jason.jpg'
+    bio: 'Andre Irabor-Folu Jason is a professional engaged in AI, animation, and automation, while also working as a sports content creator and a lifestyle and communication provider. He is driven by the desire to bring happiness to those around him, achieve success, and express his love for God through both his career and personal life.',
+    imageUrl: '/images/jason-irabor.jpeg'
   },
   {
     id: '5',
@@ -60,6 +60,13 @@ const INITIAL_MEMBERS: Member[] = [
   },
   {
     id: '9',
+    name: 'Esther Chinelo John',
+    role: 'Senate Secretary',
+    bio: 'Esther Chinelo John is a fashion designer and YouTuber known for her creativity and digital presence. She is driven by a strong commitment to excellence and a desire to consistently achieve outstanding results in her work.',
+    imageUrl: '/images/esther-john.jpeg'
+  },
+  {
+    id: '10',
     name: 'Ogaranya',
     role: 'Senate Member',
     bio: '',
