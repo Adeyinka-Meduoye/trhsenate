@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Calendar, Users, FileText, ArrowRight, Clock, MapPin, Target, Heart, ShieldCheck, Zap, Activity } from 'lucide-react';
+import { Calendar, Users, FileText, ArrowRight, Clock, MapPin, Target, Heart, ShieldCheck, Zap, Activity, Landmark, Gavel, Scale, Scroll } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { DataService } from '../services/storage';
 import { Meeting } from '../types';
@@ -19,9 +19,8 @@ export const Home = () => {
   }, []);
 
   const govScope = [
-    'Sanctuary', 'Music', 'Media', 'Protocol', 
-    'Hospitality', 'Drama', 'Innovation & Technology', 
-    '+ Other Organisations & Departments'
+    'Sanctuary', 'Music', 'Media', 'Protocol', 'Innovation & Technology', 
+    'Hospitality', 'Drama', '+ Other Organisations & Departments'
   ];
 
   return (
@@ -29,6 +28,21 @@ export const Home = () => {
       {/* Hero Section */}
       <div className="bg-blue-950 text-white relative overflow-hidden border-b border-slate-800">
         <div className="absolute inset-0 bg-[url('/images/trhsenate.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        
+        {/* Floating Icons Background */}
+        <div className="absolute top-6 left-6 md:top-10 md:left-10 text-blue-500/10 animate-float-slow pointer-events-none select-none">
+           <Landmark className="w-24 h-24 md:w-36 md:h-36" strokeWidth={1} />
+        </div>
+        <div className="absolute bottom-8 right-6 md:bottom-12 md:right-12 text-red-500/10 animate-float-delayed pointer-events-none select-none">
+           <Gavel className="w-20 h-20 md:w-32 md:h-32" strokeWidth={1} />
+        </div>
+        <div className="absolute top-12 right-8 md:top-16 md:right-24 text-orange-500/10 animate-float pointer-events-none select-none">
+           <Scale className="w-16 h-16 md:w-24 md:h-24" strokeWidth={1} />
+        </div>
+        <div className="absolute bottom-24 left-8 md:bottom-20 md:left-32 text-slate-400/10 animate-float-slow pointer-events-none select-none">
+           <Scroll className="w-14 h-14 md:w-20 md:h-20" strokeWidth={1} />
+        </div>
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-3 py-1 bg-blue-900/50 rounded-full text-xs font-semibold tracking-wide uppercase mb-4 text-blue-200 border border-blue-800 backdrop-blur-sm">
@@ -41,7 +55,7 @@ export const Home = () => {
               Driving Kingdom Impact.
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-             We don’t bend the system. We create it, follow it, and reflect it.
+              We don’t bend the system. We create it, follow it, and reflect it.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/members" className="bg-gradient-to-r from-blue-600 via-orange-500 to-red-600 animate-gradient-bg text-white px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity inline-flex items-center shadow-lg border border-transparent">

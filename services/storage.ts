@@ -70,13 +70,14 @@ const INITIAL_MEMBERS: Member[] = [
     name: 'Ogaranya',
     role: 'Senate Member',
     bio: '',
-    imageUrl: '/images/isaiah-david.jpg'
+    imageUrl: '/images/ogaranya.jpg'
   }
 ];
 
+
 // Helper to generate meetings based on logic:
 // 3rd Sunday: In-person @ Church Auditorium (12:00 PM)
-// 3rd Tuesday: Virtual @ Google Meet (9:00 PM)
+// Virtual Meeting: Two days after the In-person meeting (Tuesday) @ Google Meet (9:00 PM)
 const generateMeetings = (): Meeting[] => {
   const meetings: Meeting[] = [];
   const today = new Date();
@@ -95,10 +96,10 @@ const generateMeetings = (): Meeting[] => {
     const thirdSunday = firstSunday + 14;
     const sunDate = new Date(year, month, thirdSunday, 12, 0, 0); 
 
-    // 3rd Tuesday Calculation
-    const firstTuesday = 1 + ((2 - wd + 7) % 7);
-    const thirdTuesday = firstTuesday + 14;
-    const tueDate = new Date(year, month, thirdTuesday, 21, 0, 0); // 21:00
+    // Virtual Meeting Calculation: Strictly 2 days after the Sunday meeting
+    const tueDate = new Date(sunDate);
+    tueDate.setDate(sunDate.getDate() + 2); // Add 2 days
+    tueDate.setHours(21, 0, 0, 0); // Set time to 9:00 PM
 
     meetings.push({
       id: `sun-${year}-${month}`,
@@ -152,6 +153,7 @@ const INITIAL_DOCS: DocumentItem[] = [
     description: 'Official template for organisation leaders to submit evidence-based responses for their respective team member of the month.'
   }
 ];
+
 
 // AUTOMATED SYNC HELPER
 // Checks if the data in code has changed compared to what is in local storage.
