@@ -119,7 +119,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
           <div className="mt-12 pt-8 border-t border-slate-800 text-xs text-center">
             <p>&copy; {new Date().getFullYear()} TRH Senate. All rights reserved.</p>
-            <p className="mt-2 text-slate-500 font-medium">Developed by Medus Technologies</p>
+            <p className="mt-2 text-slate-500 font-medium">Developed by TRH INNOVATION & TECHNOLOGY</p>
           </div>
         </div>
       </footer>
