@@ -69,8 +69,8 @@ const INITIAL_MEMBERS: Member[] = [
     id: '10',
     name: 'Ogaranya',
     role: 'Senate Member',
-    bio: '',
-    imageUrl: '/images/ogaranya.jpg'
+    bio: 'Ogaranya Rapheal is a lifestyle entrepreneur engaged in phone software solutions, gadget sales, hyping, compering/MC services, comedy, and content creation. His work reflects versatility, creativity, and strong engagement with people and digital culture. He is driven by God’s grace and a deep desire to continually grow into a better person for the benefit of humanity. His aspiration is to make the world a better place, starting with creating meaningful impact and positive change among Nigerians.',
+    imageUrl: '/images/ogaranya.jpeg'
   }
 ];
 

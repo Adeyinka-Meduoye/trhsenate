@@ -58,7 +58,7 @@ export const Documents = () => {
                         )}
                       </div>
                       <div className="flex-grow min-w-0">
-                        <h3 className="text-sm font-semibold text-slate-200 group-hover:text-blue-300 truncate">
+                        <h3 className="text-sm font-semibold text-slate-200 group-hover:text-blue-300 break-words">
                           {doc.title}
                         </h3>
                         {doc.description && (
