@@ -137,7 +137,7 @@ const INITIAL_DOCS: DocumentItem[] = [
   {
     id: '2',
     title: 'TRH Workforce Membership Data Collection',
-    category: 'Reports',
+    category: 'Data Forms',
     type: 'link',
     url: 'https://forms.gle/ZRibvHLepM1WD4Ai8',
     uploadDate: '2026-02-16',
@@ -145,13 +145,22 @@ const INITIAL_DOCS: DocumentItem[] = [
   },
   {
     id: '3',
-    title: 'TRH Workforce Team Member of the Monthly: Nomination Form',
-    category: 'Reports',
+    title: 'TRH Workforce Team Member of the Month: Nomination Form',
+    category: 'Data Forms',
     type: 'link',
     url: 'https://forms.gle/TMh6zuz3E9XJXhTaA',
     uploadDate: '2026-02-16',
     description: 'Official template for organisation leaders to submit evidence-based responses for their respective team member of the month.'
-  }
+  },
+    {
+    id: '4',
+    title: 'TRH First-Timer Data Capture Form',
+    category: 'Data Forms',
+    type: 'link',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScjUAN2pe5sXllbzdT7KDD_CQJjI12faNU2c4_gS_yM2vecXQ/viewform',
+    uploadDate: '2026-02-27',
+    description: 'Official form for capturing first-timer data for TRH Ministries.'
+  },
 ];
 
 

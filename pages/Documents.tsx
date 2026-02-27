@@ -10,7 +10,7 @@ export const Documents = () => {
     setDocs(DataService.getDocuments());
   }, []);
 
-  const categories: DocumentCategory[] = ['Reports', 'Minutes', 'Policies', 'Guidelines', 'Other'];
+  const categories: DocumentCategory[] = ['Reports', 'Minutes', 'Systems & Structures', 'Data Forms', 'Other'];
 
   const getDocsByCategory = (cat: DocumentCategory) => docs.filter(d => d.category === cat);
 

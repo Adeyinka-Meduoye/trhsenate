@@ -15,7 +15,7 @@ export interface Meeting {
   minutesUrl?: string;
 }
 
-export type DocumentCategory = 'Reports' | 'Minutes' | 'Policies' | 'Guidelines' | 'Other';
+export type DocumentCategory = 'Reports' | 'Minutes' | 'Systems & Structures' | 'Data Forms' | 'Other';
 
 export interface DocumentItem {
   id: string;

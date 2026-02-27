@@ -315,8 +315,8 @@ export const Admin = () => {
               >
                 <option value="Reports">Reports</option>
                 <option value="Minutes">Minutes</option>
-                <option value="Policies">Policies</option>
-                <option value="Guidelines">Guidelines</option>
+                <option value="Systems & Structures">Systems & Structures</option>
+                <option value="Forms">Forms</option>
                 <option value="Other">Other</option>
               </select>
                <select 
