@@ -71,7 +71,15 @@ const INITIAL_MEMBERS: Member[] = [
     role: 'Senate Member',
     bio: 'Ogaranya Rapheal is a lifestyle entrepreneur engaged in phone software solutions, gadget sales, hyping, compering/MC services, comedy, and content creation. His work reflects versatility, creativity, and strong engagement with people and digital culture. He is driven by God’s grace and a deep desire to continually grow into a better person for the benefit of humanity. His aspiration is to make the world a better place, starting with creating meaningful impact and positive change among Nigerians.',
     imageUrl: '/images/ogaranya.jpeg'
+  },
+  {
+    id: '11',
+    name: 'Obidimalor Fortune',
+    role: 'Senate Member',
+    bio: 'Obidimalor Fortune holds a degree in Chemistry and is a speech coach, entrepreneur, and technology enthusiast. He is driven by a genuine desire to serve and create value. This mindset shapes how he leads and forms the foundation of his leadership approach. He focuses on contributing meaningfully and bringing out the best in people. He thinks deeply, approaches problems with clarity, and remains committed to achieving real, measurable results. He enjoys working with passionate and intentional people. Being part of a team with a clear goal energizes him, and he takes responsibility for ensuring tasks are not only started but completed effectively. He is motivated by progress. Seeing ideas move from concept to execution—and knowing he contributed to that journey—drives him to do more. He aspires to become a leader who serves with purpose, integrity, and excellence, building strong, aligned teams committed to achieving a common goal.',
+    imageUrl: '/images/fortune.jpeg'
   }
+
 ];
 
 
