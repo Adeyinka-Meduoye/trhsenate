@@ -20,7 +20,7 @@ export const Home = () => {
 
   const govScope = [
     'Sanctuary', 'Music', 'Media', 'Protocol', 'Innovation & Technology',
-    'Hospitality', 'Drama', '+ Other Organisations & Departments'
+    'Hospitality', 'Medical', 'Information Desk', 'Drama', '+ Other Organisations & Departments'
   ];
 
   return (
